@@ -34,7 +34,6 @@ function quoteEvent() {
     quoteEvent();
   }
 
-  console.log(randomnumber);
   document.getElementById("quote-content").innerHTML =
     quoteContent[randomnumber];
   document.getElementById("quote-publisher").innerHTML =
