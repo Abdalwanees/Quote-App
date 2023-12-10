@@ -1,0 +1,23 @@
+#quote h2 {
+  font-size: 100px;
+  font-family: "Anton", sans-serif;
+  font-weight: bolder;
+}
+#quote p {
+  font-size: 25px;
+  font-family: "Crimson Text", serif;
+  font-weight: lighter;
+}
+#quote button {
+  font-size: 20px;
+  font-family: "Crimson Text", serif;
+  border: none;
+  background-color: blue;
+  color: white;
+  border: 2px solid black;
+}
+#quote button:hover {
+  background-color: rgb(0, 255, 13);
+
+}
+
