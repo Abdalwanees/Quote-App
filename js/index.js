@@ -29,13 +29,12 @@ function quoteEvent() {
   var randomnumber = Math.floor(Math.random() * quotePublisher.length);
   if (randomnumber !== random) {
     random = randomnumber;
+    document.getElementById("quote-content").innerHTML =
+    quoteContent[randomnumber];
+  document.getElementById("quote-publisher").innerHTML =
+    quotePublisher[randomnumber];
   } else {
     random = randomnumber;
     quoteEvent();
   }
-
-  document.getElementById("quote-content").innerHTML =
-    quoteContent[randomnumber];
-  document.getElementById("quote-publisher").innerHTML =
-    quotePublisher[randomnumber];
 }
